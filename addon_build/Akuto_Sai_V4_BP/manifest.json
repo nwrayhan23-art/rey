@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Akuto Sai V4 \u2014 Reality Breaker (Behavior Pack)",
+    "description": "Behavior Pack for Akuto Sai V4 featuring 9B HP, one-shot Warden damage, boss bar, and reality-breaking powers.",
+    "uuid": "d87a412b-7e61-4601-97a4-9b16ea9825b4",
+    "version": [
+      4,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Akuto Sai V4 Behavior Logic",
+      "type": "data",
+      "uuid": "c4b12850-2591-4cf1-839e-21ef68d672ea",
+      "version": [
+        4,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "7f2e1a90-3844-4861-a08b-648de498f3c1",
+      "version": [
+        4,
+        0,
+        0
+      ]
+    }
+  ]
+}

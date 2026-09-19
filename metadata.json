@@ -1,0 +1,6 @@
+{
+  "name": "Akuto Sai V4 — Reality Breaker",
+  "description": "Minecraft Bedrock Edition Addon package generator and viewer for Akuto Sai V4 featuring custom 3D geometry, high-fidelity textures, reality-breaking particle auras, and ready-to-import .mcaddon.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

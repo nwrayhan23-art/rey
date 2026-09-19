@@ -1,0 +1,54 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "akuto:sai_v4",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/akuto_sai_v4"
+      },
+      "geometry": {
+        "default": "geometry.akuto_sai_v4"
+      },
+      "animations": {
+        "idle": "animation.akuto_sai_v4.idle",
+        "walk": "animation.akuto_sai_v4.walk",
+        "attack": "animation.akuto_sai_v4.attack",
+        "aura": "animation.akuto_sai_v4.aura",
+        "reality_break": "animation.akuto_sai_v4.reality_break",
+        "void_slash": "animation.akuto_sai_v4.void_slash",
+        "teleport": "animation.akuto_sai_v4.teleport"
+      },
+      "scripts": {
+        "animate": [
+          "idle",
+          "aura",
+          {
+            "walk": "query.modified_move_speed"
+          },
+          {
+            "attack": "variable.attack_time"
+          }
+        ]
+      },
+      "particle_effects": {
+        "aura_ring": "akuto:aura_ring",
+        "black_energy": "akuto:black_energy",
+        "crimson_energy": "akuto:crimson_energy",
+        "void_slash": "akuto:void_slash",
+        "reality_explosion": "akuto:reality_explosion",
+        "teleport_burst": "akuto:teleport_burst"
+      },
+      "render_controllers": [
+        "controller.render.akuto_sai_v4"
+      ],
+      "spawn_egg": {
+        "texture": "akuto_sai_v4_egg",
+        "base_color": "#0a0a14",
+        "overlay_color": "#e60039"
+      }
+    }
+  }
+}

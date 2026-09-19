@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Akuto Sai V4 \u2014 Reality Breaker (Resource Pack)",
+    "description": "Resource Pack for Akuto Sai V4 featuring custom 3D anime geometry, layered aura particles, HD textures, and custom animations.",
+    "uuid": "7f2e1a90-3844-4861-a08b-648de498f3c1",
+    "version": [
+      4,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Akuto Sai V4 Client Assets",
+      "type": "resources",
+      "uuid": "9e5c4681-7d12-4c6e-b3d9-5f212ec82d19",
+      "version": [
+        4,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "d87a412b-7e61-4601-97a4-9b16ea9825b4",
+      "version": [
+        4,
+        0,
+        0
+      ]
+    }
+  ]
+}

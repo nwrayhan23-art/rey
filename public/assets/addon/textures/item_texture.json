@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "Akuto_Sai_V4_RP",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "akuto_sai_v4_egg": {
+      "textures": "textures/items/akuto_sai_v4_egg"
+    }
+  }
+}
